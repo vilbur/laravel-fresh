@@ -28,3 +28,9 @@ git reset --hard origin/master
 git pull origin master
 ```
 
+## Update yarn
+
+``` bash
+yarn
+```
+

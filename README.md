@@ -22,6 +22,7 @@ $ composer create-project laravel/laravel project_name
 
 ``` bash
 cd project_name
+git init
 git remote add origin https://github.com/vilbur/laravel-start.git
 git fetch --all
 git reset --hard origin/master

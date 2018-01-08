@@ -6,9 +6,8 @@ use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class ExampleDatabaseTest extends TestCase
+class DatabaseTest extends TestCase
 {
-	use DatabaseTransactions;
 	use RefreshDatabase;
 
    /**
@@ -16,13 +15,10 @@ class ExampleDatabaseTest extends TestCase
      *
      * @return void
      */
-    public function testBasicTest()
-    {
-        //$this->assertTrue(true);
+    public function testBasicTest(){
 
-		$user = factory(\App\User::class, 1)->create();
-		dump($user);
-		$this->assertEquals($user->id, 1);
+		$users = factory(\App\User::class, 1)->create();
+		$this->assertEquals($users->first()->id, 1);
 
     }
 }

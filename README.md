@@ -15,7 +15,7 @@
 Via Composer
 
 ``` bash
-$ composer create-project laravel/laravel project_name
+composer create-project laravel/laravel project_name
 ```
 
 ## Download this package

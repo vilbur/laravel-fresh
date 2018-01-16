@@ -1,5 +1,5 @@
 ## Kickstart configuration for new Laravel project
-
+- composer.json contains main packages
 
 #### Install Laravel
 

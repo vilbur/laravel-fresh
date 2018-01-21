@@ -2,30 +2,19 @@
 - composer.json contains main packages
 
 #### Install Laravel
-
-
 ``` bash
 composer create-project laravel/laravel project_name
 ```
 
 #### Fetch this repository
-Excute this one line command
+Run this command in project folder
 ``` bash
 git init &&git remote add origin https://github.com/vilbur/laravel-start.git &&git fetch --all &&git reset --hard origin/master &&git pull origin master
 ```
 
-__...or run each command one by one__
-
+#### Update Laravel
 ``` bash
-git init
-git remote add origin https://github.com/vilbur/laravel-start.git
-git fetch --all
-git reset --hard origin/master
-git pull origin master
-```
-
-#### Update yarn
-
-``` bash
+composer update
+php artisan voyager:install
 yarn
 ```

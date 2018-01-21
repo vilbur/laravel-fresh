@@ -3,7 +3,7 @@
  *
  * Allows access to models without namespace E.G: 'App\Models\Post::create' >>> 'Post::create'
  *
- * Source: https://gist.github.com/calebporzio/cdf70bd390688646fda65490006eb0a6
+ * Source: https://gist.github.com/calebporzio/cdf70bd390688646fda65490006eb0a6#gistcomment-2101136
  *
  *
  */

@@ -3,19 +3,12 @@
 
 #### How to install project
 1. [Install Laravel.](#install-laravel)<br>
-2. [Update Laravel.](#update-laravel)<br>
-3. [Fetch this repository.](#fetch-this-repository)<br>
+2. [Fetch this repository.](#fetch-this-repository)<br>
+3. [Update Laravel.](#update-laravel)<br>
 
 #### Install Laravel
 ``` bash
 composer create-project laravel/laravel project_name
-```
-
-#### Update Laravel
-``` bash
-composer update
-php artisan voyager:install
-yarn
 ```
 
 #### Fetch this repository
@@ -24,3 +17,9 @@ Run this command in project folder
 git init &&git remote add origin https://github.com/vilbur/laravel-fresh.git &&git fetch --all &&git reset --hard origin/master &&git pull origin master
 ```
 
+#### Update Laravel
+``` bash
+composer update
+php artisan voyager:install
+yarn
+```

@@ -8,7 +8,7 @@
 
 #### Install Laravel
 ``` bash
-composer create-project laravel/laravel project_name
+composer create-project laravel/laravel laravel-fresh &&cd laravel-fresh
 ```
 
 #### Fetch this repository

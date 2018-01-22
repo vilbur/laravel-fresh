@@ -17,4 +17,4 @@ mix.js('resources/assets/js/app.js', 'public/js')
 
 
 /* LiveReload */
-mix.browserSync('portfolio');
+mix.browserSync('laravel-fresh');

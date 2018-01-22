@@ -18,8 +18,10 @@ git init &&git remote add origin https://github.com/vilbur/laravel-fresh.git &&g
 ```
 
 #### Update Laravel
+Run these commands in cmd.exe (to prevent cygwin errors)
 ``` bash
 composer update
 php artisan voyager:install
 yarn
+npm install
 ```

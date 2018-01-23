@@ -24,3 +24,8 @@ git init &&git remote add origin https://github.com/vilbur/laravel-fresh.git &&g
 ``` bash
 composer update &&php artisan voyager:install &&yarn &&npm install
 ```
+
+#### IMPORTANT NOTE
+__Package codeception does not support phpunit > 6.5__<br>
+__phpunit is temporary downgraded from  "~6.0" to "6.4.4"__
+https://github.com/Codeception/Codeception/issues/4736#issuecomment-356534721

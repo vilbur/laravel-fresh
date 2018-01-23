@@ -17,4 +17,12 @@ mix.js('resources/assets/js/app.js', 'public/js')
 
 
 /* LiveReload */
-mix.browserSync('laravel-fresh');
+mix.browserSync({
+	host:	'laravel-fresh',
+	proxy:	'laravel-fresh',
+	files:[
+		'resources/views/**/*.php',
+		'app/**/*.php',
+		'routes/**/*.php',
+	]
+});

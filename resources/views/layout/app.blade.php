@@ -8,7 +8,7 @@
     </head>
     <body>
 
-        <div id='wrapper'>
+        <div id='v-app'>
             <div class='row'>
                 <div class='col-xs-12' id='layout-wrapper'>
                     @yield('content')

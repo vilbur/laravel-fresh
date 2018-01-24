@@ -23,6 +23,7 @@
         "webpack-livereload-plugin": "^1.0.0"
     },
     "dependencies": {
-        "bootstrap-vue": "^1.4.0"
+        "bootstrap-vue": "^1.4.0",
+        "vuetify": "^0.17.6"
     }
 }

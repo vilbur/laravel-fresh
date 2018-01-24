@@ -1,5 +1,6 @@
 let mix = require('laravel-mix');
 
+
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -11,18 +12,21 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+mix.js([
+		'resources/assets/js/app.js',
+	], 'public/js/app.js')
+   .sass('resources/assets/sass/app.scss', 'public/css/app.css');
 
 
 
 /* LiveReload */
 mix.browserSync({
-	host:	'laravel-fresh',
-	proxy:	'laravel-fresh',
+	host:	'portfolio',
+	proxy:	'portfolio/portfolio',
 	files:[
 		'resources/views/**/*.php',
 		'app/**/*.php',
 		'routes/**/*.php',
+		'packages/vilbur/portfolio/src/Views/*.blade.php'
 	]
 });

@@ -14,9 +14,7 @@
 
     <body>
 		<div id="app">
-			<v-app id="inspire">
-				@yield('content')
-			</v-app>
+			@yield('content')
 		</div>
     </body>
 

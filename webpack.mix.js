@@ -14,6 +14,7 @@ let mix = require('laravel-mix');
 
 mix.js([
 		'resources/assets/js/app.js',
+		'resources/assets/js/spa.js',
 	], 'public/js/app.js')
    .sass('resources/assets/sass/app.scss', 'public/css/app.css');
 
@@ -21,12 +22,11 @@ mix.js([
 
 /* LiveReload */
 mix.browserSync({
-	host:	'portfolio',
-	proxy:	'portfolio/portfolio',
+	host:	'laravel-fresh',
+	proxy:	'laravel-fresh',
 	files:[
 		'resources/views/**/*.php',
 		'app/**/*.php',
 		'routes/**/*.php',
-		'packages/vilbur/portfolio/src/Views/*.blade.php'
 	]
 });

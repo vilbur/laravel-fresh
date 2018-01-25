@@ -8,4 +8,7 @@
 |
 */
 
-Route::get('/{any}', 'SpaController@index')->where('any', '.*');
+//
+//Route::get('/{any}', function(){
+//	return view('welcome');
+//});

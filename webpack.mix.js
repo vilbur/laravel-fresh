@@ -14,7 +14,6 @@ let mix = require('laravel-mix');
 
 mix.js([
 		'resources/assets/js/app.js',
-		'resources/assets/js/spa.js',
 	], 'public/js/app.js')
    .sass('resources/assets/sass/app.scss', 'public/css/app.css');
 
@@ -25,8 +24,14 @@ mix.browserSync({
 	host:	'laravel-fresh',
 	proxy:	'laravel-fresh',
 	files:[
-		'resources/views/**/*.php',
 		'app/**/*.php',
 		'routes/**/*.php',
+
+		'resources/assets/js/*.js',
+		'resources/assets/js/**/*.vue',
+
+		'resources/assets/sass/*.scss',
+
+		'resources/views/**/*.php',
 	]
 });

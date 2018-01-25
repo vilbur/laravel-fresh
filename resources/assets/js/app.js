@@ -6,7 +6,27 @@
  */
 
 //require('./bootstrap');
+import './bootstrap';
+import router from "./routes";
 
-window.Vue = require('vue');
+import Vue from "vue";
+import VueRouter from 'vue-router';
+
+
+import Buefy from "buefy";
+import "buefy/lib/buefy.css";
+
+window.Vue = Vue;
+window.Vue.use(Buefy);
+window.Vue.use(VueRouter);
+
+
+
+
+new Vue({
+    el: '#app',
+    router,
+});
+
 
 

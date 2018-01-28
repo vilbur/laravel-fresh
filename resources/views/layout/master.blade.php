@@ -12,12 +12,9 @@
     </head>
 
     <body>
-
 		<div id="app">
-				<router-link to="/"	class="navbar-item">Home</router-link>
-				<router-link to="/about"	class="navbar-item">About</router-link>
-
-		<router-view></router-view>
+			<navbar></navbar>
+			<router-view style="margin-top:80px"></router-view>
 		</div>
 
 		<script src='/js/app.js'></script>

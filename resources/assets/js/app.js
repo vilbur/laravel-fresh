@@ -5,7 +5,6 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-//require('./bootstrap');
 import './bootstrap';
 import router from "./routes";
 
@@ -16,12 +15,14 @@ import VueRouter from 'vue-router';
 import Buefy from "buefy";
 import "buefy/lib/buefy.css";
 
+
 window.Vue = Vue;
 window.Vue.use(Buefy);
 window.Vue.use(VueRouter);
 
 
-
+import navbar	from './components/navbar';
+window.Vue.component('navbar', navbar);
 
 new Vue({
     el: '#app',

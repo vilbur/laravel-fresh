@@ -24,14 +24,26 @@ mix.browserSync({
 	host:	'laravel-fresh',
 	proxy:	'laravel-fresh',
 	files:[
+		/*
+			====== APP ======
+		*/
 		'app/**/*.php',
 		'routes/**/*.php',
-
-		'resources/assets/js/*.js',
-		'resources/assets/js/**/*.vue',
-
-		'resources/assets/sass/*.scss',
-
+		/* views */
 		'resources/views/**/*.php',
+		/* ASSETS */
+		'resources/assets/**/*.*',
+		'resources/assets/**/**/*.*',
+		'resources/assets/**/**/**/*.*',
+
+		/*
+			====== PACKAGES DEV ======
+		*/
+		/* publish - VIEWS */
+		'packages/vilbur/**/publish/views/*.blade.php',
+		/* ASSETS */
+		'packages/vilbur/**/publish/resources/assets/**/*.*',
+		'packages/vilbur/**/publish/resources/assets/**/**/*.*',
+		'packages/vilbur/**/publish/resources/assets/**/**/**/*.*',
 	]
 });

@@ -17,7 +17,7 @@ composer create-project laravel/laravel laravel-fresh &&cd laravel-fresh
 #### Fetch this repository
 Run this command in project folder
 ``` bash
-git init &&git remote add origin https://github.com/vilbur/laravel-fresh.git &&git fetch --all &&git reset --hard origin/master &&git pull origin master
+git init &&git config core.ignorecase false &&git remote add origin https://github.com/vilbur/laravel-fresh.git &&git fetch --all &&git reset --hard origin/master &&git pull origin master
 ```
 
 #### Update Laravel

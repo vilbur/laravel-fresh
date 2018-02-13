@@ -17,7 +17,8 @@
         "laravelnews/laravel-twbs4": "^1.1",
         "orangehill/iseed": "dev-master",
         "tcg/voyager": "^1.0",
-        "jeroen-g/laravel-packager": "^1.6"
+        "jeroen-g/laravel-packager": "^1.6",
+        "vilbur/voyager-seeder": "@dev"
 
     },
     "require-dev": {

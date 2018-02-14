@@ -20,14 +20,11 @@ window.Vue = Vue;
 window.Vue.use(Buefy);
 window.Vue.use(VueRouter);
 
+import navbar	from './app/components/navbar';
+Vue.component('navbar', navbar);
 
-import navbar	from './components/navbar';
-window.Vue.component('navbar', navbar);
 
 new Vue({
     el: '#app',
     router,
 });
-
-
-

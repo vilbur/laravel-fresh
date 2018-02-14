@@ -19,7 +19,6 @@
         "tcg/voyager": "^1.0",
         "jeroen-g/laravel-packager": "^1.6",
         "vilbur/voyager-seeder": "@dev"
-
     },
     "require-dev": {
         "filp/whoops": "~2.0",

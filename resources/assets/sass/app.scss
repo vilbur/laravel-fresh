@@ -9,8 +9,14 @@
 // Bootstrap
 //@import "~bootstrap-sass/assets/stylesheets/bootstrap";
 
-
-
+/* BULMA */
 @import "~bulma/bulma.sass";
 
+/* APP */
+@import "app/layout.scss";
 
+/* COMPONENTS */
+@import "app/components/navbar.scss";
+
+
+/* PACKAGES */

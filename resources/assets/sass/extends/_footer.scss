@@ -1,0 +1,14 @@
+/* =============================================== */
+/*	          PUSH FOOTER TO BOTTOM                */
+/* =============================================== */
+/* http://ryanfait.com/resources/footer-stick-to-bottom-of-page/ */
+
+#wrapper,.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto calc($footer-height*-1);
+}
+footer, .footer, .push {
+	height: $footer-height;
+}

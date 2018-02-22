@@ -13,9 +13,12 @@
 
     <body>
 		<div id="app">
+			{{--@include('partials.navigation.navbar')--}}
 			<navbar></navbar>
 			<router-view style="margin-top:80px"></router-view>
 		</div>
+
+		@include('partials.footer')
 
 		<script src='/js/app.js'></script>
     </body>

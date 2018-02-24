@@ -1,7 +1,7 @@
 <template>
 
 	<nav class="navbar is-transparent is-fixed-top is-centered">
-		<div id="mainNav" class="navbar-menu nav-center" :class="{'is-active': navIsActive}">
+		<div class="navbar-menu" :class="{'is-active': navIsActive}">
 			<div class="navbar-start">
 				<router-link to="/"	class="navbar-item">Home</router-link>
 				<router-link to="/bio"	class="navbar-item">About</router-link>

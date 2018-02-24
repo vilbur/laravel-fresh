@@ -1,18 +1,20 @@
-
-// Fonts
+/* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
-@import "variables";
 
-// Bootstrap
-//@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+/* BULMA - Core */ //https://buefy.github.io/#/documentation/customization
+@import "~bulma/sass/utilities/_all";
+/* BULMA - Variables */
+@import "_variables";
+/* BULMA - styles */
+@import "~bulma";
+/* BUEFY - styles */
+@import "~buefy/src/scss/buefy";
+
 
 /* FONT AWESOME */
 @import "~font-awesome/scss/font-awesome.scss";
 
-/* BULMA */
-@import "~bulma/bulma.sass";
 
 /* APP */
 @import "app/layout.scss";
@@ -22,6 +24,3 @@
 
 /* COMPONENTS */
 @import "app/components/navbar.scss";
-
-
-/* PACKAGES */

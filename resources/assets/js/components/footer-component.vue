@@ -1,0 +1,60 @@
+<template>
+	<footer>
+		<div class="container">
+			<div class="content">
+
+				<div class="columns level has-text-centered">
+
+					<div class="column is-4">
+						<h4 class="title is-4 has-text-centered">
+							{{ company.name }}
+						</h4>
+					</div>
+
+					<div class="column is-4 borderX">
+						<div class="container has-text-centered has-text-left-tablet borderX">
+							<a :href="'mailto:'+company.email_1" target="_blank">
+								<span class="icon is-large"><i class="fa fa-envelope fa-2x"></i></span>
+									{{ company.email_1 }}
+							</a><br>
+							<span class="icon is-large"><i class="fa fa-phone fa-2x"></i></span>+420 {{ company.tel_1 }}
+						</div>
+					</div>
+
+					<div class="column is-4 borderX ">
+						<div class="container has-text-centered has-text-left-tablet borderX">
+							<a href="https://github.com/vilbur" target="_blank">
+								<span class="icon is-large"><i class="fa fa-github fa-2x"></i></span>
+									GitHub
+							</a><br>
+							<a href="https://www.youtube.com/channel/UCmA5Pwgkt56C9gc3DWs-3og" target="_blank">
+								<span class="icon is-large"><i class="fa fa-youtube fa-2x"></i></span>
+									YouTube
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</footer>
+
+</template>
+
+<script>
+  export default {
+    name: 'footer-component',
+    data () {
+		return{
+			company: {},
+		}
+    },
+	created(){
+		axios.get('/database/company/1').then( response => this.company = response.data );
+	},
+    methods: {
+
+    }
+  }
+</script>

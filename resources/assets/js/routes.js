@@ -3,8 +3,8 @@
 import VueRouter from 'vue-router';
 
 
-const Home	= () => import('./app/views/home.vue');
-const About	= () => import('./app/views/about.vue');
+const Home	= () => import('./views/home.vue');
+const About	= () => import('./views/about.vue');
 
 
 const routes = [
@@ -25,4 +25,3 @@ export default new VueRouter({
     routes,
 	linkActiveClass: 'is-active'
 });
- 

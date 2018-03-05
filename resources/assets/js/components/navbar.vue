@@ -16,14 +16,14 @@
   export default {
     name: 'navbar',
     data () {
-      return {
-        navIsActive: false
-      }
+		return {
+			navIsActive: false
+		}
     },
     methods: {
-      toggleMenu: function () {
-        this.navIsActive = !this.navIsActive
-      }
+		toggleMenu: function () {
+			this.navIsActive = !this.navIsActive
+		}
     }
   }
 </script>

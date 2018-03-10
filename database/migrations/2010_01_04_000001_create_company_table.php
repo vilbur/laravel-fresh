@@ -18,17 +18,15 @@ class CreateCompanyTable extends Migration
 			$table->string('claim',  255)->nullable();
 			$table->string('about',  255)->nullable();
 			$table->string('logo',   255)->nullable();
+
 			$table->string('street', 255)->nullable();
 			$table->string('house_number',255)->nullable();
 			$table->string('city',   255)->nullable();
 			$table->integer('zip'  )->length(16)->unsigned()->index()->nullable();
 
-			$table->string('email_1',255)->nullable();
-			//$table->string('email_2',255)->nullable();
+			$table->string('email',255)->nullable();
+			$table->integer('tel')->length(16)->unsigned()->index()->nullable();
 
-			$table->integer('tel_1')->length(16)->unsigned()->index()->nullable();
-			//$table->integer('tel_2')->length(16)->unsigned()->index()->nullable();
-			//$table->integer('fax');
 			$table->timestamps();
 		});
 

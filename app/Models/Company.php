@@ -4,7 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Company extends Model {
 
-	protected $fillable = ['logo',  'name', 'claim','about', 'street',  'house_number', 'city', 'zip', 'tel_1', 'tel_2', 'email','email_1', 'email_2', 'fax'];
+	protected $fillable = ['logo',  'name', 'claim','about', 'street',  'house_number', 'city', 'zip', 'email','tel'];
 
 	protected $table = 'company';
 
@@ -20,7 +20,12 @@ class Company extends Model {
 
 	}
 
-
+	/**
+	*/
+	public function getTelAttribute($value)
+	{
+		return chunk_split($value, 3);
+	}
 
 
 

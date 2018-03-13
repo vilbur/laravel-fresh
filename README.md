@@ -11,7 +11,7 @@
 #### Install Laravel
 __USE cmd.exe TO PREVENT CYGWIN ERRORS__
 ``` bash
-composer create-project laravel/laravel laravel-fresh &&cd laravel-fresh
+composer create-project laravel/laravel="5.5.*" laravel-fresh &&cd laravel-fresh
 ```
 
 #### Fetch this repository

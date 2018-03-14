@@ -12,12 +12,12 @@ class CompanyTableSeeder extends Seeder
      */
     public function run()
     {
-        
+
 
         \DB::table('company')->delete();
-        
+
         \DB::table('company')->insert(array (
-            0 => 
+            0 =>
             array (
                 'id' => 1,
                 'name' => 'Lubor Černý',
@@ -28,13 +28,13 @@ class CompanyTableSeeder extends Seeder
                 'house_number' => NULL,
                 'city' => 'Prague',
                 'zip' => NULL,
-                'email_1' => 'cerny.vil@gmail.com',
-                'tel_1' => 792479254,
+                'email' => 'cerny.vil@gmail.com',
+                'tel' => 792479254,
                 'created_at' => '2018-02-21 10:46:33',
                 'updated_at' => '2018-02-21 10:46:33',
             ),
         ));
-        
-        
+
+
     }
 }

@@ -18,6 +18,7 @@
         "orangehill/iseed": "dev-master",
         "tcg/voyager": "^1.0",
         "jeroen-g/laravel-packager": "^1.6",
+        "vilbur/admin-setup": "@dev",
         "vilbur/voyager-seeder": "@dev"
     },
     "require-dev": {

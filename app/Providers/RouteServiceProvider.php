@@ -67,7 +67,7 @@ class RouteServiceProvider extends ServiceProvider
 		], function ($router) {
 
 				$files = Finder::create()
-						->in(app_path('..\routes\web'))
+						->in(app_path('../routes/web'))
 						->name('*.php');
 			foreach($files as $file)
 				require $file->getRealPath();

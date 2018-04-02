@@ -17,7 +17,9 @@ composer create-project laravel/laravel="5.5.*" laravel-fresh &&cd laravel-fresh
 
 #### Fetch this repository  
 Run this command in project folder  
-`git init &&git config core.ignorecase false &&git remote add origin https://github.com/vilbur/laravel-fresh.git &&git fetch --all &&git reset --hard origin/master &&git pull origin master`  
+``` bash  
+git init &&git config core.ignorecase false &&git remote add origin https://github.com/vilbur/laravel-fresh.git &&git fetch --all &&git reset --hard origin/master &&git pull origin master  
+```  
 
 #### Update Laravel  
 ``` bash  
@@ -35,5 +37,6 @@ composer exec codecept bootstrap
 ---  
 
 ## Deployment  
-[Errors & solutions for deployment of Laravel on Wedos webhosting](/documentation/deployment/wedos-deployment.md)  
+- [Checklist for deployment](/documentation/deployment/deployment-checklist.md)  
+- [Errors & solutions for deployment of Laravel on Wedos webhosting](/documentation/deployment/wedos-deployment.md)  
   

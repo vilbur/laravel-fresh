@@ -1,10 +1,9 @@
-
-
 import VueRouter from 'vue-router';
 
 
 const Home	= () => import('./views/home.vue');
 const About	= () => import('./views/about.vue');
+const Contact	= () => import('./views/contact.vue');
 
 
 const routes = [
@@ -18,6 +17,11 @@ const routes = [
 		name:	'about',
 		component:	About
 	},
+	{
+		path:	'/contact',
+		name:	'contact',
+		component:	Contact
+	},	
 ];
 
 

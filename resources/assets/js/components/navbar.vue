@@ -4,7 +4,7 @@
 		<div class="navbar-menu" :class="{'is-active': navIsActive}">
 			<div class="navbar-start">
 				<router-link to="/"	class="navbar-item">Home</router-link>
-				<router-link to="/bio"	class="navbar-item">About</router-link>
+				<router-link to="/About"	class="navbar-item">About</router-link>
 		   		<router-link to="/contact"	class="navbar-item">Contact</router-link>
 			</div>
 		</div>

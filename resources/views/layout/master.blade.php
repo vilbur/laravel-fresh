@@ -13,13 +13,14 @@
 
     <body>
 		<div id="app">
-			{{--@include('partials.navigation.navbar')--}}
+
 			<navbar></navbar>
 			<router-view style="margin-top:80px"></router-view>
 		</div>
 
-		{{--@include('partials.footer')--}}
-
+		<router-component v-if="! $root.loading"></router-component>
+		<footer-component v-if="! $root.loading"></footer-component>
+				
 		<script src="{{ asset('/js/app.js') }}"></script>
     </body>
 

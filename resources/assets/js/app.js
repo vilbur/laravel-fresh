@@ -20,4 +20,6 @@ require('./components');
 new Vue({
     el: '#app',
     router,
+	data: { loading: false },
 });
+

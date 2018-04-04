@@ -3,6 +3,9 @@
 import navbar	from './components/navbar';
 window.Vue.component('navbar', navbar);
 
+import routerComponent	from './components/router-component';
+window.Vue.component('router-component', routerComponent);
+
 import footerComponent	from './components/footer-component';
 window.Vue.component('footer-component', footerComponent);
 
@@ -11,4 +14,4 @@ window.Vue.component('footer-component', footerComponent);
 
 //window.Vue.component('gallery', VueGallery);
 //import VueGallery from 'vue-gallery';
- 
+  

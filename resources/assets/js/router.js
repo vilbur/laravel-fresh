@@ -25,7 +25,24 @@ const routes = [
 ];
 
 
-export default new VueRouter({
+const router = new VueRouter({
     routes,
-	linkActiveClass: 'is-active'
+	linkActiveClass: 'is-active',
 });
+
+
+/* === HOOKS === */
+
+/* set loading true when route start loading
+ */
+router.beforeEach((to, from, next) => {
+	router.app.loading = true;
+	next();
+});
+/* set loading false when route finish loading
+ */
+router.afterEach((to, from, next) => {
+	router.app.loading = false;
+});
+
+export default router;

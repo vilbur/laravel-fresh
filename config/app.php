@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'http://www.cerny-lubor.com'),
+    'name' => env('APP_NAME', 'laravel-fresh'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://www.cerny-lubor.com'),
+    'url' => env('APP_URL', 'http://www.laravel-fresh.com'),
 
     /*
     |--------------------------------------------------------------------------

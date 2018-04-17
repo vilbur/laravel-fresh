@@ -5,22 +5,26 @@
 /* BULMA - Core */ //https://buefy.github.io/#/documentation/customization
 @import "~bulma/sass/utilities/_all";
 /* BULMA - Variables */
-@import "_variables";
+@import 'bulma/variables/_variables.scss';
 /* BULMA - styles */
 @import "~bulma";
 /* BUEFY - styles */
 @import "~buefy/src/scss/buefy";
 
+/* EXTENDS */
+@import "extends/extends.scss";
 
 /* FONT AWESOME */
 @import "~font-awesome/scss/font-awesome.scss";
 
 
-/* APP */
-@import "app/layout.scss";
+/* LAYOUT */
+@import "layout/layout.scss";
+@import "layout/components/navbar.scss";
+@import "layout/components/footer.scss";
 
-/* EXTENDS */
-@import "extends/extends.scss";
 
 /* COMPONENTS */
-@import "app/components/navbar.scss";
+
+
+/* PACKAGES */

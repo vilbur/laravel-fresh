@@ -11,20 +11,27 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
+		/*
+			Voyager tables - seed first, because of user roles
+		*/
+		$this->call(VoyagerDatabaseSeeder::class);
+		
+		/*
+			TableSeeders
+		*/
+		$this->call(UserAdminTableSeeder::class);
+		$this->call(CompanyTableSeeder::class);
+		
+		/*
+			DatabaseSeeders
+		*/
+		$this->call(BiographyDatabaseSeeder::class);
+		$this->call(PortfolioDatabaseSeeder::class);
+		$this->call(SkillsDatabaseSeeder::class);
+		
+		/*
+			VoyagerSeeder - seed coyager tables for new models
+		*/
 		$this->call(VoyagerSeeder::class);
-
-        $this->call(UserAdminTableSeeder::class);
-        //$this->call(VoyagerDatabaseSeeder::class);
-
-        //$this->call(CategorySkillsSeeder::class);
-        //$this->call(SkillsSeeder::class);
-        //$this->call(SkillDetailsSeeder::class);
-        //
-        //$this->call(CategoryPortfoliosTableSeeder::class);
-        //$this->call(PortfoliosTableSeeder::class);
-        //$this->call(PortfolioItemsTableSeeder::class);
-        //$this->call(PortfolioFilesTableSeeder::class);
-        //
-        //$this->call(BiographyTableSeeder::class);
     }
 }

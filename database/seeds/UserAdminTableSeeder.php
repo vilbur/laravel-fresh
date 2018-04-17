@@ -1,8 +1,6 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use TCG\Voyager\Models\Role;
-use TCG\Voyager\Models\User;
 
 class UserAdminTableSeeder extends Seeder
 {
@@ -13,12 +11,13 @@ class UserAdminTableSeeder extends Seeder
      */
     public function run()
     {
-        if (User::count() == 0) {
+        if (\App\User::count() == 0) {
+	
+			if(\Schema::hasTable('roles'))
+			{
+				$role = \TCG\Voyager\Models\Role::where('name', 'admin')->firstOrFail();
 
-			if(Schema::hasTable('roles')){
-				$role = Role::where('name', 'admin')->firstOrFail();
-
-				User::create([
+				\TCG\Voyager\Models\User::create([
 					'name'           => 'vilbur',
 					'email'          => 'cerny.vil@gmail.com',
 					'password'       => '$2y$10$IIsqO8nHHw3KG0lBK.Fj5.roC4uVxH4ShJGJluJ0nggw2hSnD896.',
@@ -26,8 +25,9 @@ class UserAdminTableSeeder extends Seeder
 					'role_id'        => $role->id,
 				]);
 
-			} else {
-				User::create([
+			} else
+			{
+				\App\User::create([
 					'name'           => 'vilbur',
 					'email'          => 'cerny.vil@gmail.com',
 					'password'       => '$2y$10$IIsqO8nHHw3KG0lBK.Fj5.roC4uVxH4ShJGJluJ0nggw2hSnD896.',

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
-<project id="fd5b23e4-e677-4326-952f-b00f9d245d5f" kpf_version="5" name="WWW-lubor-cerny.komodoproject">
+<project id="fd5b23e4-e677-4326-952f-b00f9d245d5f" kpf_version="5" name="WWW-laravel-fresh.komodoproject">
 <file id="462371bd-1a1e-49d8-b63b-2a2a64db559b" idref="4710b611-7885-438c-ba33-6edbc8df5b3c" name="app.php" url="config/app.php">
 </file>
 <file id="7eb5de6b-0402-42d1-8968-32b43fe165b0" idref="4710b611-7885-438c-ba33-6edbc8df5b3c" name=".env" url=".env">

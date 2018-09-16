@@ -4,27 +4,37 @@
 
 
 #### How to install project  
-1. [Install Laravel.](#install-laravel)<br>  
-2. [Fetch this repository.](#fetch-this-repository)<br>  
-3. [Update Laravel.](#update-laravel)<br>  
-4. [Bootstrap Codeception.](#bootstrap-codeception)<br>  
+0. [Install Laravel.](#install-laravel)  
+0. [Fetch this repository.](#fetch-this-repository)  
+0. [Update Laravel.](#update-laravel)  
+0. [Bootstrap Codeception hotfix.](#bootstrap-codeception)  
+0. [Compile files](#compile-files)  
+
+---  
 
 #### Install Laravel  
-use __cmd.exe__ ( __Cygwin__ throws errors )  
+__Important__: use __cmd.exe__ ( __Cygwin__ throws errors )  
 ``` bash  
 composer create-project laravel/laravel="5.5.*" laravel-fresh &&cd laravel-fresh  
 ```  
 
-#### Fetch this repository  
+---  
+
+#### Fetch this repository to installed Laravel  
 Run this command in project folder  
 ``` bash  
 git init &&git config core.ignorecase false &&git remote add origin https://github.com/vilbur/laravel-fresh.git &&git fetch --all &&git reset --hard origin/master &&git pull origin master  
 ```  
 
+---  
+
 #### Update Laravel  
+
 ``` bash  
 composer update &&php artisan voyager:install &&yarn &&npm install  
 ```  
+
+---  
 
 #### Bootstrap Codeception  
 __Package codeception does not support phpunit > 6.5__  
@@ -36,7 +46,14 @@ composer exec codecept bootstrap
 
 ---  
 
+#### Compile files  
+Build views, js and css files  
+``` bash  
+npm run watch  
+```  
+
+---  
+
 ## Deployment  
 - [Checklist for deployment](/documentation/deployment/deployment-checklist.md)  
 - [Errors & solutions for deployment of Laravel on Wedos webhosting](/documentation/deployment/wedos-deployment.md)  
-  

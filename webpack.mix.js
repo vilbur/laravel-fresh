@@ -21,8 +21,8 @@ mix.js([
 
 /* LiveReload */
 mix.browserSync({
-	host:	'laravel-fresh-local.com',
-	proxy:	'laravel-fresh-local.com',
+	host:	'laravel-fresh.local',
+	proxy:	'laravel-fresh.local',
 	files:[
 		/*
 			====== APP ======

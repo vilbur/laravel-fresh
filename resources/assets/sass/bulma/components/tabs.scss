@@ -1,0 +1,8 @@
+.tabs {
+	background-color: $body-bg;
+}
+
+/* Hotfix - otherwise variable doesn't work */
+.tabs .is-active{
+	color:$tabs-link-active-color
+}

@@ -2,6 +2,8 @@
 <html lang="{{ app()->getLocale() }}">
     <head>
         <title>{{env('APP_NAME', 'Laravel-Fresh')}}</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
 
@@ -13,11 +15,12 @@
 
     <body>
 		<div id="app">
-
-			<navbar></navbar>
-
-			<router-component v-if="! $root.loading"></router-component>
-
+		
+			<div id="content">
+				<navbar></navbar>
+				<router-component v-if="! $root.loading"></router-component>
+			</div>
+				
 			<footer-component v-if="! $root.loading"></footer-component>
 
 		</div>

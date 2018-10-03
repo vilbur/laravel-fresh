@@ -1,6 +1,6 @@
 /** Vue components
  */
-import navbar	from './components/layout/navbar';
+import navbar	from './components/layout/navbar/navbar';
 window.Vue.component('navbar', navbar);
 
 import routerComponent	from './components/layout/router-component';

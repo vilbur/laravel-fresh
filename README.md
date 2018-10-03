@@ -1,11 +1,12 @@
 # Kickstart template for new Laravel project  
 
 ### Installation  
-__[Install this repository to Laravel.](README-installation.md)__  
+__[Install this repository to Laravel](README-installation.md)__  
 
 
 ### Database  
-__[Migrations](database/migrations/README.md)__  
+__[Migrations](database/migrations/README-migrations.md)__  
+__[Seeders](database/migrations/README-seeders.md)__  
 
 
 ### Deployment  

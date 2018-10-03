@@ -21,7 +21,7 @@ class CompanyTableSeeder extends Seeder
             array (
                 'id' => 1,
                 'name' => 'Lubor Černý',
-                'claim' => NULL,
+                'claim' => 'Company claim',
                 'about' => NULL,
                 'logo' => NULL,
                 'street' => NULL,

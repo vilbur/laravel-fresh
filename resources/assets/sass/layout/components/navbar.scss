@@ -2,7 +2,7 @@
  *
  * VARIABLE $navbar-breakpoint IS NOT AVAILABLE IN BULMA v0.6.2
  */
-@import "navbar-breakpoint-hotfix.sass";
+//@import "navbar-breakpoint-hotfix.sass";
 
 /* NAVBAR CUSTOM STYLING
  *
@@ -48,16 +48,12 @@ nav.navbar{
 		background-color: $navbar-item-active-background-color
 	}
 
-
 }
 
 /* center items horizontally */
 nav.navbar .navbar-start {
 	margin: 0 auto;
 }
-
-
-
 
 /* ====== HERO CAROUSEL ======
  * 	(used in landing page)
@@ -70,7 +66,6 @@ nav.navbar-hero-carousel{
 	background-color: transparent;
 	margin: 0 auto;
 
-
 	a{
 		font-size: 2em;
 	}
@@ -78,8 +73,6 @@ nav.navbar-hero-carousel{
 		background-color: transparent;
 		-webkit-box-shadow: none;
 	}
-
-
 }
 
 @media screen and (min-width: $tablet){

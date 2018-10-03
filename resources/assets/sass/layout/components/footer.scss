@@ -1,6 +1,7 @@
 /* Footer height
  */
 $footer-height: 10rem;
+
 /* ---------------------------------------
  * PUSH FOOTER BOTTOM
  *
@@ -25,7 +26,7 @@ body {
 	position: relative;
 }
 #content {
-    padding-bottom: $footer-height; /* ATTENTION! padding-bottom should be equal to the footer height (this keeps the footer from overlapping the content) */
+    padding-bottom: $footer-height; /* NOTE: padding-bottom should be equal to the footer height (this keeps the footer from overlapping the content) */
 }
 
 footer{
@@ -35,7 +36,6 @@ footer{
     bottom: 0;
 	padding: 0;
     margin: 0;
-    height: $footer-height; /* REMEMBER height = padding-bottom */
 }
 
 

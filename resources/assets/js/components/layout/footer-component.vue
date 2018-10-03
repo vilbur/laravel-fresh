@@ -1,6 +1,6 @@
 <template>
 	<transition name="fade">
-		<footer v-if="shown" :class="{'footer-homepage': this.$route.name==='home'}" >
+		<footer v-if="shown"  class="footer" :class="{'footer-homepage': this.$route.name==='home'}">
 
 			<div class="container">
 				<div class="content">
@@ -14,7 +14,7 @@
 									{{ company.name }}
 								</span><br>
 								<span class="title is-4 has-text-centered border-OFF">
-									3D Artist
+									{{ company.claim }}
 								</span>
 
 							<!--</div>-->

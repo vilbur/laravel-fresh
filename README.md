@@ -1,15 +1,18 @@
 # Kickstart template for new Laravel project  
 
-### Installation  
+## Installation  
 __[Install this repository to Laravel](README-installation.md)__  
 
 
-### Database  
+## Documentation  
+__Database__  
 __[Migrations](database/migrations/README-migrations.md)__  
 __[Seeders](database/seeds/README-seeders.md)__  
+__[Models](app/Models/readme.md)__  
 
 
-### Deployment  
+---  
+__Deployment__  
 __[Checklist](documentation/deployment/deployment-checklist.md)__  
 __[Wedos](documentation/deployment/wedos-deployment.md)__  
   

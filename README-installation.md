@@ -8,7 +8,7 @@
 1. [Fetch this repository.](#fetch-this-repository)  
 1. [Update Laravel.](#update-laravel)  
 1. [Bootstrap Codeception hotfix.](#bootstrap-codeception)  
-1. [Compile files](#compile-files)  
+1. [Compile project files](#compile-project-files)  
 
 ---  
 
@@ -46,7 +46,7 @@ composer exec codecept bootstrap
 
 ---  
 
-#### Compile files  
+#### Compile project files  
 Build views, js and css files  
 ``` bash  
 npm run watch  

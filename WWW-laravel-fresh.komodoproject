@@ -11,11 +11,20 @@
 </livefolder>
 <livefolder id="2e4a45b2-3805-43c7-8f41-52f7a85da303" idref="7fd50754-ee11-4387-a486-ceb4fcb7c628" name="js" url="resources/assets/js/">
 </livefolder>
+<livefolder id="3cacecc5-467b-4235-a380-ba0b5dba185f" idref="8749e444-0c96-4ef7-8a68-72d794c6ea3b" name="navbar" url="resources/assets/js/components/layout/navbar/">
+</livefolder>
+<livefolder id="b6b563e3-6734-4b96-a29b-96ffae919192" idref="8749e444-0c96-4ef7-8a68-72d794c6ea3b" name="views" url="resources/assets/js/views/">
+</livefolder>
+<file id="ec07fc06-cfdd-46d9-92ce-781c5db7b619" idref="8749e444-0c96-4ef7-8a68-72d794c6ea3b" name="router.js" url="resources/assets/js/router.js">
+</file>
+
 <livefolder id="266da75b-a7bf-4307-9c67-2558773b7d00" idref="fd5b23e4-e677-4326-952f-b00f9d245d5f" name="views" url="resources/views/">
 </livefolder>
 <folder id="4710b611-7885-438c-ba33-6edbc8df5b3c" idref="fd5b23e4-e677-4326-952f-b00f9d245d5f" name="~Config">
 </folder>
 <folder id="7fd50754-ee11-4387-a486-ceb4fcb7c628" idref="fd5b23e4-e677-4326-952f-b00f9d245d5f" name="Assets">
+</folder>
+<folder id="8749e444-0c96-4ef7-8a68-72d794c6ea3b" idref="fd5b23e4-e677-4326-952f-b00f9d245d5f" name="Routes &amp; views">
 </folder>
 <livefolder id="b8a2aaab-3282-4455-bb7e-ce6bfee88185" idref="fd5b23e4-e677-4326-952f-b00f9d245d5f" name="packages" url="packages">
 </livefolder>

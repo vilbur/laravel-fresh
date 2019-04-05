@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
 <project id="fd5b23e4-e677-4326-952f-b00f9d245d5f" kpf_version="5" name="WWW-laravel-fresh.komodoproject">
+<file id="26e76cd4-2cea-49b6-925b-7e85d8b88ef3" idref="4710b611-7885-438c-ba33-6edbc8df5b3c" name="composer.json" url="composer.json">
+</file>
 <file id="462371bd-1a1e-49d8-b63b-2a2a64db559b" idref="4710b611-7885-438c-ba33-6edbc8df5b3c" name="app.php" url="config/app.php">
 </file>
 <file id="7eb5de6b-0402-42d1-8968-32b43fe165b0" idref="4710b611-7885-438c-ba33-6edbc8df5b3c" name=".env" url=".env">
 </file>
 <file id="9a778d6d-f1e5-4e22-a323-c8cc95b47990" idref="4710b611-7885-438c-ba33-6edbc8df5b3c" name="database.php" url="config/database.php">
+</file>
+<file id="c1e1daef-d6da-44f3-8670-d29a731f6fac" idref="4710b611-7885-438c-ba33-6edbc8df5b3c" name="package.json" url="package.json">
 </file>
 <livefolder id="1a567890-ad99-40b3-89e1-30a94b4fc5e2" idref="7fd50754-ee11-4387-a486-ceb4fcb7c628" name="sass" url="resources/assets/sass/">
 </livefolder>
@@ -17,7 +21,6 @@
 </livefolder>
 <file id="ec07fc06-cfdd-46d9-92ce-781c5db7b619" idref="8749e444-0c96-4ef7-8a68-72d794c6ea3b" name="router.js" url="resources/assets/js/router.js">
 </file>
-
 <livefolder id="266da75b-a7bf-4307-9c67-2558773b7d00" idref="fd5b23e4-e677-4326-952f-b00f9d245d5f" name="views" url="resources/views/">
 </livefolder>
 <folder id="4710b611-7885-438c-ba33-6edbc8df5b3c" idref="fd5b23e4-e677-4326-952f-b00f9d245d5f" name="~Config">
